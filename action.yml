@@ -1,0 +1,35 @@
+name: 'Gross Cloud Network ECS Production'
+description: 'Configure aws ecs secrets to s3 bucket and return arn environment variables'
+author: 'Gross Corporation'
+runs:
+    using: 'node12'
+    main: 'env.js'
+inputs:
+    aws_access_key:
+        description: 'AWS Access Key'
+        required: true
+    aws_secret_key:
+        description: 'AWS Secret Key'
+        required: true
+    region:
+        description: 'AWS Region'
+        required: true
+    environment:
+        description: 'Node environment variable'
+        required: true
+    bucket_name:
+        description: 'Bucket name'
+        required: true
+    secret_name:
+        description: 'Secret name'
+        required: true
+    secret_file_name:
+        description: 'Secret name'
+        required: true
+    slug:
+        description: 'Custom app slug for variants'
+        required: true
+
+branding:
+    icon: 'arrow-up'
+    color: 'green'

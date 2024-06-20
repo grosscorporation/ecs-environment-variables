@@ -1,0 +1,6 @@
+test.zip
+.vscode
+.history
+*.env
+.env
+.env*
