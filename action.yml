@@ -26,6 +26,11 @@ inputs:
     secret_file_name:
         description: 'Secret name'
         required: true
+    role_name:
+        description: 'Role to assume for cross accounts'
+    aws_account_id:
+        description: 'AWS Account ID'
+        required: true
     slug:
         description: 'Custom app slug for variants'
         required: true

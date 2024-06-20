@@ -25,6 +25,7 @@
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.600.0",
 		"@aws-sdk/client-secrets-manager": "^3.535.0",
+		"@aws-sdk/client-sts": "^3.600.0",
 		"@aws-sdk/lib-storage": "^3.600.0",
 		"dotenv": "^16.4.5"
 	},
